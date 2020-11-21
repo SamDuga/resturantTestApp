@@ -1,0 +1,9 @@
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\bin\Debug\netcoreapp3.1\RestaurantTestApp.Core.deps.json
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\bin\Debug\netcoreapp3.1\RestaurantTestApp.Core.dll
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\bin\Debug\netcoreapp3.1\RestaurantTestApp.Core.pdb
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\obj\Debug\netcoreapp3.1\RestaurantTestApp.Core.csprojAssemblyReference.cache
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\obj\Debug\netcoreapp3.1\RestaurantTestApp.Core.csproj.CoreCompileInputs.cache
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\obj\Debug\netcoreapp3.1\RestaurantTestApp.Core.AssemblyInfoInputs.cache
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\obj\Debug\netcoreapp3.1\RestaurantTestApp.Core.AssemblyInfo.cs
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\obj\Debug\netcoreapp3.1\RestaurantTestApp.Core.dll
+C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Core\obj\Debug\netcoreapp3.1\RestaurantTestApp.Core.pdb

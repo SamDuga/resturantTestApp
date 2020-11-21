@@ -1,0 +1,25 @@
+﻿@page
+@model ResturantTestApp.Pages.Restaurants.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Restaurants</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Restaurant</th>
+            <th>Location</th>
+            <th>Cusisine Type</th>
+        </tr>
+    </thead>
+    @foreach (var restaurant in Model.Restaurants)
+    {
+        <tr>
+            <td>@restaurant.Name</td>
+            <td>@restaurant.Location</td>
+            <td>@restaurant.Cuisine</td>            
+        </tr>
+    }
+</table>
