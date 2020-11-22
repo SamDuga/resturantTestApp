@@ -21,3 +21,7 @@ C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\Res
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csproj.CopyComplete
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.dll
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.pdb
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Data.runtimeconfig.json
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Data.runtimeconfig.dev.json
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csproj.CoreCompileInputs.cache
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.genruntimeconfig.cache

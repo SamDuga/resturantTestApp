@@ -1,10 +1,17 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using RestaurantTestApp.Core;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace RestaurantTestApp.Data
 {
-    class RestaurantDbContext
+    public class RestaurantDbContext : DbContext
     {
+        public RestaurantDbContext(DbContextOptions<RestaurantDbContext> options) : base(options)
+        {
+
+        }
+        public DbSet<Restaurant> Restaurants { get; set; }
     }
 }
