@@ -4,12 +4,16 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using static RestaurantTestApp.Core.Restaurant;
+using System.Security.Cryptography;
+using System.ComponentModel.Design;
 
 namespace RestaurantTestApp.Data
 {
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetAllRestaurants();
+        IEnumerable<Restaurant> GetRestaurantsByName(string name);
+        Restaurant GetRestaurantById(int id);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -29,6 +33,21 @@ namespace RestaurantTestApp.Data
         public IEnumerable<Restaurant> GetAllRestaurants()
         {
             return from r in restaurants
+                   orderby r.Name
+                   select r;
+        }
+
+        public Restaurant GetRestaurantById(int id)
+        {
+            return restaurants.SingleOrDefault(r => r.Id == id);
+        }
+
+        public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
+        {
+            name = name?.ToLowerInvariant();
+
+            return from r in restaurants
+                   where string.IsNullOrEmpty(name) || r.Name.ToLowerInvariant().Contains(name)
                    orderby r.Name
                    select r;
         }

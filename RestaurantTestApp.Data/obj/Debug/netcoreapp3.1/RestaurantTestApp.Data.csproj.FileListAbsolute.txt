@@ -10,3 +10,15 @@ C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreap
 C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csproj.CopyComplete
 C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.dll
 C:\workspace\asp.net\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.pdb
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Data.deps.json
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Data.dll
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Data.pdb
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Core.dll
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Core.pdb
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csprojAssemblyReference.cache
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csproj.CoreCompileInputs.cache
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.AssemblyInfoInputs.cache
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.AssemblyInfo.cs
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csproj.CopyComplete
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.dll
+C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.pdb

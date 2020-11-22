@@ -15,6 +15,9 @@ namespace ResturantTestApp.Pages.Restaurants
 
         public IEnumerable<Restaurant> Restaurants { get; set; }
 
+        [BindProperty(SupportsGet =true)]
+        public string SearchTerm { get; set; }
+
         public ListModel(IRestaurantData restaurantData)
         {
             this.restaurantData = restaurantData;
@@ -22,7 +25,7 @@ namespace ResturantTestApp.Pages.Restaurants
 
         public void OnGet()
         {
-            Restaurants = restaurantData.GetAllRestaurants();
+            Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }
     }
 }
