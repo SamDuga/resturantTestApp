@@ -16,7 +16,6 @@ C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\Res
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Core.dll
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\bin\Debug\netcoreapp3.1\RestaurantTestApp.Core.pdb
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csprojAssemblyReference.cache
-C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csproj.CoreCompileInputs.cache
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.AssemblyInfoInputs.cache
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.AssemblyInfo.cs
 C:\workspace\resturantTestApp\RestaurantTestApp.Data\obj\Debug\netcoreapp3.1\RestaurantTestApp.Data.csproj.CopyComplete

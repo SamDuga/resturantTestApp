@@ -1,24 +1,26 @@
 ﻿using RestaurantTestApp.Core;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
-using static RestaurantTestApp.Core.Restaurant;
-using System.Security.Cryptography;
-using System.ComponentModel.Design;
 
 namespace RestaurantTestApp.Data
 {
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetAllRestaurants();
+
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
+
         Restaurant GetRestaurantById(int id);
+
+        Restaurant UpdateRestaurant(Restaurant updatedRestaurant);
+        Restaurant CreateRestaurant(Restaurant newRestaurant);
+
+        int Commit();
     }
 
     public class InMemoryRestaurantData : IRestaurantData
     {
-        readonly List<Restaurant> restaurants;
+        private readonly List<Restaurant> restaurants;
 
         public InMemoryRestaurantData()
         {
@@ -37,11 +39,6 @@ namespace RestaurantTestApp.Data
                    select r;
         }
 
-        public Restaurant GetRestaurantById(int id)
-        {
-            return restaurants.SingleOrDefault(r => r.Id == id);
-        }
-
         public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
         {
             name = name?.ToLowerInvariant();
@@ -51,6 +48,38 @@ namespace RestaurantTestApp.Data
                    orderby r.Name
                    select r;
         }
-    }
 
+        public Restaurant GetRestaurantById(int id)
+        {
+            return restaurants.SingleOrDefault(r => r.Id == id);
+        }
+
+        public Restaurant UpdateRestaurant(Restaurant updatedRestaurant)
+        {
+            var restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurant.Id);
+
+            if (restaurant != null)
+            {
+                restaurant.Name = updatedRestaurant.Name;
+                restaurant.Location = updatedRestaurant.Location;
+                restaurant.Cuisine = updatedRestaurant.Cuisine;
+            }
+
+            return restaurant;
+        }
+
+        public Restaurant CreateRestaurant(Restaurant newRestaurant)
+        {
+            newRestaurant.Id = restaurants.Max(r => r.Id) + 1;
+
+            restaurants.Add(newRestaurant);
+
+            return newRestaurant;
+        }
+
+        public int Commit()
+        {
+            return 0;
+        }
+    }
 }

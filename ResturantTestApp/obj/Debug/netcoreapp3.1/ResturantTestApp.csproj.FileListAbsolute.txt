@@ -803,3 +803,4 @@ C:\workspace\resturantTestApp\ResturantTestApp\obj\Debug\netcoreapp3.1\Resturant
 C:\workspace\resturantTestApp\ResturantTestApp\obj\Debug\netcoreapp3.1\ResturantTestApp.genruntimeconfig.cache
 C:\workspace\resturantTestApp\ResturantTestApp\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
 C:\workspace\resturantTestApp\ResturantTestApp\obj\Debug\netcoreapp3.1\Razor\Pages\NotFound.cshtml.g.cs
+C:\workspace\resturantTestApp\ResturantTestApp\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Edit.cshtml.g.cs
