@@ -33,8 +33,8 @@ namespace ResturantTestApp
 
             services.AddDbContextPool<RestaurantDbContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("LocalDb"));
-                //options.UseSqlServer(Configuration.GetConnectionString("Docker"));
+                //options.UseSqlServer(Configuration.GetConnectionString("LocalDb"));
+                options.UseSqlServer(Configuration.GetConnectionString("Docker"));
             });
         }
 
