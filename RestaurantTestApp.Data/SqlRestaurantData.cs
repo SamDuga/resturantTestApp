@@ -64,5 +64,10 @@ namespace RestaurantTestApp.Data
             entity.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             return updatedRestaurant;
         }
+
+        public int RestaurantCount()
+        {
+            return db.Restaurants.Count();
+        }
     }
 }

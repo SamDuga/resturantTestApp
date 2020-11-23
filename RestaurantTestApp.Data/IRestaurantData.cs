@@ -17,6 +17,8 @@ namespace RestaurantTestApp.Data
 
         Restaurant DeleteRestaurant(int id);
 
+        int RestaurantCount();
+
         int Commit();
     }
 }

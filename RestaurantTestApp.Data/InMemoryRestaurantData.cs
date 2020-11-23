@@ -72,6 +72,11 @@ namespace RestaurantTestApp.Data
             return restaurant;
         }
 
+        public int RestaurantCount()
+        {
+            return restaurants.Count();
+        }
+
         public int Commit()
         {
             return 0;
