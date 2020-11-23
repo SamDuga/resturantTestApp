@@ -30,6 +30,7 @@ namespace ResturantTestApp
 
             services.AddRazorPages();
             services.AddRazorPages().AddRazorRuntimeCompilation();
+            services.AddControllers();
 
             services.AddDbContextPool<RestaurantDbContext>(options =>
             {
@@ -54,6 +55,7 @@ namespace ResturantTestApp
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseNodeModules();
 
             app.UseRouting();
 
@@ -62,6 +64,7 @@ namespace ResturantTestApp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
