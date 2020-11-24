@@ -18,5 +18,6 @@
     <WebStackScaffolding_DbContextTypeFullName>RestaurantTestApp.Data.RestaurantDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <ShowAllFiles>false</ShowAllFiles>
+    <NameOfLastUsedPublishProfile>AdvancedSettings</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
